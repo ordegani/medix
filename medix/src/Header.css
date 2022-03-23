@@ -1,0 +1,19 @@
+.header_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mini_menu_container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: small;
+    width:30%;
+    align-items: center;
+    height: 3vh;
+    color: grey;
+}
+.mini_menu_container_img{
+    min-height: 2vh;
+    max-height: 2vh;
+}

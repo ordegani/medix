@@ -1,0 +1,10 @@
+.divided_container{
+
+}
+.divided_container >div>p{
+    font-size: x-small;
+}
+.divided_container>div{
+    text-align: center;
+    width: 20%;
+}

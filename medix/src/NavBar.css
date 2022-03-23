@@ -1,0 +1,14 @@
+.navBar_container{
+      display: flex;
+     justify-content: flex-start; 
+     background-color: purple;
+}
+.navbarUl{
+   list-style: none;
+}
+.link{
+    color: white;
+    font-weight: bolder;
+    margin: 1vw;
+    text-decoration: none;
+}

@@ -1,0 +1,19 @@
+.hero_container{
+background-image: url("images/top-img.jpg");
+height: 20vh;
+text-align: center;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+color: white;
+}
+
+.hero_container > p{
+text-align: center;
+position: absolute;
+padding: 5%;
+}
+.hero_container{
+padding: 5%;
+}
