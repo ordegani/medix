@@ -7,20 +7,17 @@ import MiddleSection from "./MiddleSection";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const App = () => {
-
-
-
   return (
     <BrowserRouter>
 
-    <Header />
+      <Header />
       <Navbar />
-      <Hero/>
-      <MiddleSection/>
+      <Hero />
+      <MiddleSection />
       <Routes>
-        <Route path='/' exact element={<Home/>} />
-        <Route path='/' exact element={<Home/>} />
-        <Route path='/' exact element={<Home/>} />
+        <Route path='/' exact element={<Home />} />
+        <Route path='/' exact element={<Home />} />
+        <Route path='/' exact element={<Home />} />
         <Route path='/' exact element={<Home />} />
         <Route path='/' exact element={<Home />} />
       </Routes>
