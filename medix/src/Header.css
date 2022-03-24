@@ -18,3 +18,67 @@
     max-height: 2vh;
     margin-right: 0.5vw;
 }
+
+/* tablet iPad */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+.mini_menu_container >:nth-child(2){
+    display: none;
+}
+.header_container{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.mini_menu_container{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    font-size: small;
+    width:0%;
+    align-items: center;
+    height: 3vh;
+    margin-top: 1vh;
+    color: transparent;
+    margin-left: 2vw;
+}
+.hamburger{
+height: 3vh;
+margin-right: 2vw;
+font-size: x-large;
+}
+}
+@media only screen 
+and (min-device-width: 412px) 
+and (max-device-width: 9144px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+    .mini_menu_container >:nth-child(2){
+        display: none;
+    }
+    .header_container{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+     
+    }
+    .mini_menu_container{
+        display: flex;
+        justify-content: start;
+        flex-direction: row;
+        font-size: small;
+        width:0%;
+        align-items: center;
+        height: 3vh;
+        margin-top: 1vh;
+        color: transparent;
+        margin-left: 2vw;
+    }
+    .hamburger{
+    height: 3vh;
+    margin-right: 2vw;
+    font-size: x-large;
+    }
+    .logo{
+        height: 3vh;
+    }
+}

@@ -12,3 +12,19 @@
     margin: 1vw;
     text-decoration: none;
 }
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+.navBar_container{
+    display: none;
+}
+  }
+  @media only screen 
+  and (min-device-width: 412px) 
+  and (max-device-width: 9144px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+.navBar_container{
+    display: none;
+}
+  }
